@@ -14,9 +14,9 @@ const { NotImplementedError } = require('../extensions/index.js');
 function deleteDigit(n) {
   let result = 0,
         digits = [];
-    while (num) {
-        digits.push(num % 10);
-        num = Math.floor(num / 10);
+    while (n) {
+        digits.push(n % 10);
+        n = Math.floor(n / 10);
     }
     for (let index_num = 0; index_num < digits.length; index_num++) {
         let n = 0;
